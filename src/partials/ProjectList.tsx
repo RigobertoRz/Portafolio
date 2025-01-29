@@ -18,45 +18,29 @@ const ProjectList = () => (
         name="Punto de Venta"
         description="Como parte de aplicar mi conocimiento en bases de datos y programacion por capas.
          Desarrolle un punto de venta con tematica de una tienda de suplementos."
-        link="/posts/first-post/"
+        link="https://github.com/RigobertoRz/PuntodeVenta"
         img={{
           src: '/assets/images/Pdv.png',
           alt: 'Punto de Venta',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>C#</Tags>
+            <Tags color={ColorTags.LIME}>Bases de datos</Tags>
+            <Tags color={ColorTags.SKY}>Diseño</Tags>
           </>
         }
       />
       <Project
         name="Memorama"
         description="Este es un divertido juego de memoria desarrollado en C#, inspirado en el popular juego Among Us. En este memorama, los jugadores deben emparejar cartas con tematica de Among Us."
-        link="/"
+        link="https://github.com/RigobertoRz/Memorama"
         img={{ src: '/assets/images/memorama.gif', alt: 'memorama' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>C#</Tags>
+            <Tags color={ColorTags.GRAY}>Simple</Tags>
+            <Tags color={ColorTags.YELLOW}>Divertido</Tags>
           </>
         }
       />
@@ -75,7 +59,7 @@ const ProjectListandroid = () => (
       <Project
         name="SusAPP(App de Mensajeria)"
         description="En este proyecto desarrolle una app para poder enviar mensajes entre usuarios utilizando firebase"
-        link="/"
+        link="https://github.com/RigobertoRz/AppSus"
         img={{ src: '/assets/images/SusApp.png', alt: 'SusApp Logo' }}
         category={
           <>
@@ -89,7 +73,7 @@ const ProjectListandroid = () => (
         name="GLHF"
         description="Good Luck Have Fun, es un proyecto que desarrolle en universidad para servir como un tracker de los videojuegos 
         que has jugado y quieres completar Inspirado en apps como Letterbox o TV Time. "
-        link="/"
+        link="https://github.com/RigobertoRz/GLHF"
         img={{
           src: '/assets/images/GLHF.png',
           alt: 'Project Web Design',
