@@ -109,10 +109,9 @@ const ProjectListc = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.YELLOW}>Python</Tags>
+            <Tags color={ColorTags.BLUE}>Web Local</Tags>
+            <Tags color={ColorTags.SKY}>Datos</Tags>
           </>
         }
       />
